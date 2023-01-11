@@ -35,7 +35,7 @@ class Queen {
     }
 
     nQueen = async () => {
-        Board = 0;
+        Board = 0; 
         this.position[`${Board}`] = {};
         numberbox.disabled = true;
         await q.solveQueen(Board, 0, n);
@@ -115,7 +115,6 @@ class Queen {
     delay = async () => {
         await new Promise((done) => setTimeout(() => done(), speed));
     }
-
     solveQueen = async (board, r, n) => {
         if (r == n) {
             ++Board;

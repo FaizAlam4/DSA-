@@ -74,12 +74,12 @@ div.n-queen {
 }
 
 .slider {
-  -webkit-appearance: none;
+  -webkit-appearance: none; 
   width: 100%;
   margin: 0 auto;
   height: 7px;
   border-radius: 7px;
-  background: linear-gradient(90deg, #e8eddf 60%, #e8eddf 60%);
+  background: linear-gradient(90deg, #e4ebd9 60%, #e7eadc 60%);
   outline: none;
 }
 
@@ -102,50 +102,21 @@ div.n-queen {
   color: #fa7921;
 }
 
-/* Google chrome */
-.slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 20px;
-  height: 20px;
-  position: relative;
-  top: -2px;
-  cursor: pointer;
-  background-color: #fa7921;
-  border-radius: 50%;
-  z-index: 2;
-}
 
-.slider::-webkit-slider-runnable-track {
-  -webkit-appearance: none;
-  height: 15px;
-  width: 15px;
-  z-index: 1;
-  color: #ffba08;
-}
-
-/* Mozilla firefox */
-.slider::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
-  background-color: #fa7921;
-  cursor: pointer;
-  position: relative;
-  top: -2px;
-  border-radius: 50%;
-  z-index: 2;
-}
 
 .slider::-webkit-slider-thumb:hover {
-  box-shadow: 0 0 0 2px white, 0 0 0 4px #fa7921;
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #3fea6a;
+
 }
 
 #progress-bar {
   width: 60%;
   height: 7px;
-  background: #ffd200;
+  background: #5ae2a2;
   border-radius: 7px;
   position: absolute;
   top: 7px;
+  
 }
 
 .play-button {
@@ -157,13 +128,12 @@ div.n-queen {
   color: #fdfffc;
   width: 80px;
   height: 35px;
-  background-color: #f72585;
+  background-color: #25c6f7;
   border-radius: 10px;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  /* z-index: 1; */
+  
 }
 
 .play-button:hover {
